@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Caveat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+  
+
+
+}
+body{
+    
+}
+.container{
+    background-image: url(./images/bts3.png);
+    background-size: cover;
+    width: 100%;
+    height: 695px;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    background-color: rgb(6, 6, 6);
+    width: 100%;
+    height: 80px;
+   
+    
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-left: 15px;
+
+}
+.content{
+    width: 100%;
+    height: 500px;
+   color: rgb(240, 20, 225);
+   font-family: 'Agbalumo', system-ui;
+   font-family: 'Caveat', cursive;
+   text-align: center;
+   font-size:xx-large;
+}
+
+/* Gallery CSS */
+.container2{
+  background-color: black;
+    width: 100%;
+    height: 700pxpx;
+    
+}
+h1{
+    color: rgb(240, 20, 225);
+    font-family: 'Agbalumo', system-ui;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size:70px;
+}
+.gallery{
+  justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.gallery img{
+  
+    width: 320px;
+    height: 300px;
+    margin: 10px 0;
+    border-radius: 30%;
+}
